@@ -39,7 +39,8 @@ O portfólio foi construído com foco em **design moderno, responsividade** e **
 ## 🔗 **Links Importantes**
 
 - **🌍 Site publicado:** [Clique aqui para acessar](https://adail-c.github.io/portfolio/)  
-- **💻 Repositório do projeto:** [github.com/Adail-c/portfolio](https://github.com/Adail-c/portfolio)
+- **💻 Repositório do projeto:** [github.com/Adail-c/portfolio](https://github.com/Adail-c/portfolio_jss
+- )
 
 ---
 
