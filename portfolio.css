@@ -1,3 +1,26 @@
+/* Menu mobile: mostra quando .open */
+@media (max-width: 900px) {
+    .menu-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background: var(--cor-fundo-secundario);
+        width: 100vw;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.7);
+        z-index: 9999;
+        padding: 30px 0;
+        gap: 20px;
+        align-items: center;
+    }
+    .menu-nav.open {
+        display: flex;
+    }
+    .menu-mobile-btn {
+        display: block;
+    }
+}
 :root {
     --cor-fundo-principal: #1a1a1a; 
     --cor-fundo-secundario: #252525; 
