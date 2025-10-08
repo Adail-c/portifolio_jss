@@ -26,8 +26,6 @@ O portfólio foi construído com foco em **design moderno, responsividade** e **
 ---
 
 ## 🌙 **Funcionalidades Principais**
-
-- Alternância entre **tema claro e escuro** 🌗  
 - Animação de **máquina de escrever** no texto principal  
 - Destaque automático da **seção atual na navegação**  
 - **Scroll suave** e **efeito parallax** na seção inicial  
