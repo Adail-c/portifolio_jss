@@ -1,5 +1,8 @@
 /* Menu mobile: mostra quando .open */
 @media (max-width: 900px) {
+    header {
+        position: relative;
+    }
     .menu-nav {
         display: none;
         flex-direction: column;
