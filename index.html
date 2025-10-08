@@ -1,170 +1,177 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Adail Cipriano Neto</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Adail Cipriano Neto</title>
+  <meta name="description" content="Portfólio de Adail Cipriano Neto — Desenvolvedor em formação apaixonado por tecnologia, Java e Inteligência Artificial.">
+  <link rel="preload" href="img/eu.jpg" as="image">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <div class="header-content">
-            <div class="logo">
-    <h1>ACN</h1>
-            </div>
+  <header class="sidebar direita">
+    <div class="header-content">
+      <div class="logo">
+        <h1>ACN</h1>
+      </div>
 
-            <div class="divisor"></div>
+      <button class="menu-mobile-btn" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
 
-            <nav class="menu-nav">
-                <a href="#hero">Home</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#projetos">Projetos</a>
-                <a href="#contato">Contato</a>
-            </nav>
-        </div>
-    </header>
+      <nav class="menu-nav">
+        <a href="#hero">Home</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
-    <section id="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h2>Desenvolvedor em Formação</h2>
-                <p>Estudante de Análise e Desenvolvimento de Sistemas | Foco em Java, JavaScript, CSS, GitHub, Web e Sistemas de Gestão</p>
-                <a href="#projetos" class="btn">Ver Projetos</a>
-            </div>
-            <div class="hero-img">
-                <img src="img/eu.jpg" alt="Foto de Adail Cipriano Neto">
-                <div class="redes-hero">
-                    <a href="https://github.com/Adail-c" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
-                    <a href="https://www.linkedin.com/in/adail-cipriano" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="sobre" class="secao-bg">
-        <h2>Sobre Mim</h2>
-        <p>Olá! Sou Adail Cipriano Neto, estudante de Análise e Desenvolvimento de Sistemas. Estou em busca de experiência em programação, especialmente em desenvolvimento de sistemas para gestão. Gosto de aprender com projetos práticos e aplicar conceitos como POO, MVC e integração com bancos de dados.</p>
-    </section>
-
-    <section id="habilidades">
-        <h2>Minhas Habilidades</h2>
-        <div class="container-habilidades">
-            <div class="habilidade">
-                <i class="fa-brands fa-html5 fa-4x"></i>
-                <p>HTML - <span class="porcentagem">30%</span></p>
-                <div class="barra-progresso">
-                    <div class="progresso" style="width: 30%;"></div>
-                </div>
-            </div>
-            <div class="habilidade">
-                <i class="fa-brands fa-css3-alt fa-4x"></i>
-                <p>CSS - <span class="porcentagem">25%</span></p>
-                <div class="barra-progresso">
-                    <div class="progresso" style="width: 25%;"></div>
-                </div>
-            </div>
-            <div class="habilidade">
-                <i class="fa-brands fa-java fa-4x"></i>
-                <p>Java - <span class="porcentagem">20%</span></p>
-                <div class="barra-progresso">
-                    <div class="progresso" style="width: 20%;"></div>
-                </div>
-            </div>
-            <div class="habilidade">
-                <i class="fa-brands fa-js fa-4x"></i>
-                <p>JavaScript - <span class="porcentagem">30%</span></p>
-                <div class="barra-progresso">
-                    <div class="progresso" style="width: 30%;"></div>
-                </div>
-            </div>
-            <div class="habilidade">
-                <i class="fa-solid fa-database fa-4x"></i>
-                <p>MySQL - <span class="porcentagem">40%</span></p>
-                <div class="barra-progresso">
-                    <div class="progresso" style="width: 40%;"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projetos" class="secao-bg">
-        <h2>Projetos</h2>
-        <div class="container-projetos">
-            <div class="card-projeto flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/projeto1.jpg" alt="Sistema de Cadastro de Clientes">
-                        <h3>Sistema de Cadastro de Clientes</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <p>Desenvolvido com Java e MySQL, este sistema tem uma interface gráfica para gerenciar clientes.</p>
-                        <a href="#" class="btn-projeto" target="_blank">Ver no GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-projeto flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/projeto2.jpg" alt="Gerenciador de Consultas Odontológicas">
-                        <h3>Gerenciador de Consultas</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <p>Aplicativo para gerenciar consultas, procedimentos e agendamentos, utilizando Java.</p>
-                        <a href="#" class="btn-projeto" target="_blank">Ver no GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-projeto flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/transito.png" alt="Protótipo com display e-ink">
-                        <h3>Protótipo com Display e-ink</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <p>Protótipo de placas de trânsito que podem ter seu conteúdo alterado em tempo real.</p>
-                        <a href="#" class="btn-projeto" target="_blank">Ver no GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-projeto flip-card">
-    <div class="flip-card-inner">
-        <div class="flip-card-front">
-            <img src="img/analise.jpg" alt="Dashboard de Business Intelligence sobre SRAG">
-            <h3>Análise de BI: Síndrome Respiratória Aguda Grave (SRAG)</h3>
-        </div>
-        <div class="flip-card-back">
-            <p>
-                Análise de dados de Business Intelligence sobre casos hospitalizados de Síndrome Respiratória Aguda Grave (SRAG) nos anos de 2022, 2023 e 2024. O projeto gerou gráficos e dashboards para identificar os perfis demográficos mais afetados durante o período da COVID-19.
-            </p>
-            <a href="#" class="btn-projeto" target="_blank">Ver o Dashboard</a>
-        </div>
+      <div class="redes-sociais-sidebar">
+        <a href="https://github.com/Adail-c" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/adail-cipriano" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+      </div>
     </div>
-</div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-content invertido fade-in">
+        <div class="hero-img-container">
+          <img src="img/eu.jpg" alt="Foto de Adail Cipriano Neto" class="foto-perfil">
         </div>
-    
+
+        <div class="hero-text">
+          <p class="saudacao maquina">Olá! Sou <strong>Adail Cipriano Neto</strong></p>
+          <h2>Desenvolvedor em Formação</h2>
+          <p class="cargo-principal">Estudante de Análise e Desenvolvimento de Sistemas</p>
+
+          <p class="destaque">Apaixonado por tecnologia e por transformar ideias em soluções inteligentes e funcionais.</p>
+
+          <p>
+            Desenvolvo sistemas em <strong>Java</strong>, com integração ao <strong>MySQL</strong>, aplicando conceitos de <strong>POO</strong> e <strong>MVC</strong> para criar aplicações bem estruturadas e intuitivas. 
+            Gosto de unir <strong>funcionalidade</strong>, <strong>organização</strong> e <strong>boa experiência do usuário</strong> em cada projeto.
+          </p>
+
+          <p>
+            Estou constantemente aprimorando meus conhecimentos em <strong>Inteligência Artificial</strong>, 
+            <strong>boas práticas de código</strong> e <strong>Git/GitHub</strong>, buscando evoluir em cada desafio e aplicar a programação de forma criativa e eficiente.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Email: adailcipriano@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/adail-cipriano" target="_blank">linkedin.com/in/adail-cipriano</a></p>
-        <p>GitHub: <a href="https://github.com/Adail-c" target="_blank">github.com/Adail-c</a></p>
-    </section>
+        <section id="habilidades" class="fade-in">
+            <h2>Minhas Habilidades</h2>
+            <div class="container-habilidades">
+                <div class="habilidade">
+                    <i class="fa-brands fa-html5 fa-4x"></i>
+                    <p>HTML - <span class="porcentagem">30%</span></p>
+                    <div class="barra-progresso">
+                        <div class="progresso" data-valor="30"></div>
+                    </div>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-brands fa-css3-alt fa-4x"></i>
+                    <p>CSS - <span class="porcentagem">25%</span></p>
+                    <div class="barra-progresso">
+                        <div class="progresso" data-valor="25"></div>
+                    </div>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-brands fa-java fa-4x"></i>
+                    <p>Java - <span class="porcentagem">40%</span></p>
+                    <div class="barra-progresso">
+                        <div class="progresso" data-valor="40"></div>
+                    </div>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-brands fa-js fa-4x"></i>
+                    <p>JavaScript - <span class="porcentagem">30%</span></p>
+                    <div class="barra-progresso">
+                        <div class="progresso" data-valor="30"></div>
+                    </div>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-solid fa-database fa-4x"></i>
+                    <p>MySQL - <span class="porcentagem">40%</span></p>
+                    <div class="barra-progresso">
+                        <div class="progresso" data-valor="40"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2025 - Adail Cipriano Neto</p>
-        <p>
-            Redes sociais: 
-            <a href="https://www.linkedin.com/in/adail-cipriano" target="_blank">LinkedIn</a> | 
-            <a href="https://github.com/Adail-c" target="_blank">GitHub</a>
-        </p>
-    </footer>
+        <section id="projetos" class="secao-bg fade-in">
+            <h2>Projetos</h2>
+            <div class="container-projetos">
+                <div class="card-projeto flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img/projeto1.jpg" alt="Sistema de Cadastro de Clientes" loading="lazy">
+                            <h3>Sistema de Cadastro de Clientes</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Desenvolvido com Java e MySQL, este sistema tem uma interface gráfica para gerenciar clientes.</p>
+                            <a href="https://github.com/Adail-c/sistema-clientes" class="btn-projeto" target="_blank">Ver no GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-projeto flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img/app.PNG" alt="Gerenciador de Consultas Odontológicas" loading="lazy">
+                            <h3>Gerenciador de Consultas</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Aplicativo para gerenciar consultas, procedimentos e agendamentos, utilizando Java.</p>
+                            <a href="https://github.com/Adail-c/gerenciador-consultas" class="btn-projeto" target="_blank">Ver no GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-projeto flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img/transito.png" alt="Protótipo com display e-ink" loading="lazy">
+                            <h3>Protótipo com Display e-ink</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Protótipo de placas de trânsito que podem ter seu conteúdo alterado em tempo real.</p>
+                            <a href="https://github.com/Adail-c/prototipo-eink" class="btn-projeto" target="_blank">Ver no GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-projeto flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img/analise.jpg" alt="Dashboard de Business Intelligence sobre SRAG" loading="lazy">
+                            <h3>Análise de BI: Síndrome Respiratória Aguda (SRAG)</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>
+                                Análise de dados de Business Intelligence sobre casos hospitalizados de SRAG. O projeto gerou gráficos e dashboards.
+                            </p>
+                            <a href="https://github.com/Adail-c/dashboard-srag" class="btn-projeto" target="_blank">Ver o Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="contato" class="fade-in">
+            <h2>Contato</h2>
+            <p>Email: adailcipriano@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/adail-cipriano" target="_blank">linkedin.com/in/adail-cipriano</a></p>
+            <p>GitHub: <a href="https://github.com/Adail-c" target="_blank">github.com/Adail-c</a></p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 - Adail Cipriano Neto</p>
+        </footer>
+    </main>
+
+    <script src="portfolio.js"></script>
 </body>
 </html>
