@@ -9,8 +9,7 @@ Este projeto foi desenvolvido para apresentar meus principais trabalhos, habilid
 
 O portfólio foi construído com foco em **design moderno, responsividade** e **acessibilidade**, apresentando:
 - Seções de **Sobre**, **Projetos**, **Habilidades** e **Contato**  
-- **Animações suaves** com JavaScript e CSS  
-- **Modo claro/escuro** com persistência via `localStorage`  
+- **Animações suaves** com JavaScript e CSS    
 - **Scroll suave**, **efeito parallax** e **barra de progresso animada**
 
 ---
