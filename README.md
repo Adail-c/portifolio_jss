@@ -1,27 +1,52 @@
-# Portfólio Pessoal - Adail Cipriano Neto
+# 🌐 Portfólio Pessoal — Adail Cipriano Neto
 
-## Descrição do Projeto
-Este é o meu portfólio pessoal, desenvolvido como parte da atividade de criação de sites profissionais. O site apresenta minha formação como Desenvolvedor em Análise e Desenvolvimento de Sistemas, minhas habilidades em tecnologias como Java, MySQL e front-end, além de projetos selecionados com links para repositórios. O foco é em um design responsivo, moderno e intuitivo, utilizando HTML, CSS e JavaScript para uma apresentação profissional.
+Bem-vindo ao meu portfólio!  
+Este projeto foi desenvolvido para apresentar meus principais trabalhos, habilidades e trajetória na área de **Análise e Desenvolvimento de Sistemas**.
 
-O site foi criado para destacar minha paixão por tecnologia, Inteligência Artificial e desenvolvimento de soluções eficientes, com animações interativas e um layout adaptável a dispositivos móveis.
+---
 
-## Tecnologias Utilizadas
-- **Front-end**: HTML5, CSS3 (com variáveis CSS, Grid, Flexbox e animações), JavaScript (ES6+, IntersectionObserver para fade-ins, animações de progresso e máquina de escrever).
-- **Bibliotecas Externas**: Font Awesome (ícones), Google Fonts (Poppins).
-- **Ferramentas**: Git/GitHub para versionamento, GitHub Pages para hospedagem.
-- **Recursos Adicionais**: Efeitos visuais como flip cards, barras de progresso animadas e preload de imagens para performance.
+## 🚀 **Descrição do Projeto**
 
-## Link para o Site Publicado
-Acesse o site ao vivo no GitHub Pages: [https://adail-c.github.io/portifolio_jss](https://adail-c.github.io/portifolio_jss)
+O portfólio foi construído com foco em **design moderno, responsividade** e **acessibilidade**, apresentando:
+- Seções de **Sobre**, **Projetos**, **Habilidades** e **Contato**  
+- **Animações suaves** com JavaScript e CSS    
+- **Scroll suave**, **efeito parallax** e **barra de progresso animada**
 
-## Como Executar Localmente
-1. Clone o repositório: `git clone https://github.com/Adail-c/portifolio_jss.git`
-2. Abra o arquivo `index.html` em um navegador moderno (Chrome, Firefox, etc.).
-3. Certifique-se de que a pasta `img/` está intacta para carregar as imagens.
+---
 
-## Contato
-- Email: adailcipriano@gmail.com
-- LinkedIn: [linkedin.com/in/adail-cipriano](https://www.linkedin.com/in/adail-cipriano)
-- GitHub: [github.com/Adail-c](https://github.com/Adail-c)
+## 🛠️ **Tecnologias Utilizadas**
 
-© 2025 Adail Cipriano Neto. Todos os direitos reservados.
+| Categoria | Tecnologias |
+|------------|--------------|
+| Estrutura | HTML5 |
+| Estilo | CSS3 (variáveis, animações, responsividade) |
+| Interatividade | JavaScript (DOM, IntersectionObserver, localStorage) |
+| Hospedagem | GitHub Pages |
+
+---
+
+## 🌙 **Funcionalidades Principais**
+
+- Alternância entre **tema claro e escuro** 🌗  
+- Animação de **máquina de escrever** no texto principal  
+- Destaque automático da **seção atual na navegação**  
+- **Scroll suave** e **efeito parallax** na seção inicial  
+- **Animação de habilidades** com `IntersectionObserver`
+
+---
+
+## 🔗 **Links Importantes**
+
+- **🌍 Site publicado:** [Clique aqui para acessar](https://adail-c.github.io/portifolio_jss/)  
+- **💻 Repositório do projeto:** [github.com/Adail-c/portfolio]](https://github.com/Adail-c/portifolio_jss) 
+- )
+
+---
+
+## 👨‍💻 **Autor**
+
+**Adail Cipriano Neto**  
+📍 Estudante de Análise e Desenvolvimento de Sistemas  
+📧 [adailcipriano@gmail.com](mailto:adailcipriano@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/adail-cipriano)  
+🔗 [GitHub](https://github.com/Adail-c)
