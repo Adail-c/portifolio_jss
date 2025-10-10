@@ -37,8 +37,8 @@ O portfólio foi construído com foco em design moderno, responsividade e acessi
 
 ## 🔗 Links Importantes
 
-- 🌍 **Site publicado:** [Acessar site](https://adail-c.github.io/portfolio_jss/)
-- 💻 **Repositório do projeto:** [GitHub](https://github.com/Adail-c/portfolio_jss)
+- 🌍 **Site publicado:** [Acessar site](https://adail-c.github.io/portifolio_jss/)
+- 💻 **Repositório do projeto:** [GitHub](https://github.com/Adail-c/portifolio_jss)
 
 ---
 
